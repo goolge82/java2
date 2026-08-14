@@ -29,6 +29,7 @@ public class Assign5 {
 	void changelibrarian() {
 		
 		librarian_name="eswar";
+//		librarian_name="charan";
 	}
 
 
@@ -48,35 +49,26 @@ public class Assign5 {
 		 a.library_name="vishwa vidyalayam";
 		 a.librarian_name="charan";
 		 
-		 b.bookid=132;
-			b.booktitle="maha bharatam";
-			b.authorname="vedavasa";
-			b.available_copies=25000;
-			
-			 b.library_name="vishwa vidyalayam";
-			 b.librarian_name="eswar";
+//		 b.bookid=132;
+//			b.booktitle="maha bharatam";
+//			b.authorname="vedavasa";
+//			b.available_copies=25000;
+//			
+//			 b.library_name="vishwa vidyalayam";
+//			 b.librarian_name="eswar";
 
 		 System.out.println("book1 detaile:-");
 		 a.DisplayBookDetails();
 		 a.DisplaylibraianDetails();	
 		 
-		 System.out.println("book2 detaile:-"); 
-		 b.DisplayBookDetails();
-		 b.DisplaylibraianDetails();	
-		 
-//		 a.changelibrarian("eswar");
-//		
-//		 System.out.println("after change the librarian name"); 
+//		 System.out.println("book2 detaile:-"); 
+//		 b.DisplayBookDetails();
+//		 b.DisplaylibraianDetails();	
+//	
 		 a.changelibrarian();	
+//		 b.changelibrarian();	
 		 
-		 
-//		 Assign5 c=new Assign5();
-//			
-//			Assign5 d=new Assign5();
-//			
-//			 
-//			 c.DisplayBookDetails();
-//			 d.DisplaylibraianDetails();	
+
 		 
 		
 		
