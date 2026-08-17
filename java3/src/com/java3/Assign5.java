@@ -28,8 +28,10 @@ public class Assign5 {
 	
 	void changelibrarian() {
 		
+		System.out.println("************ After changing name ****************");
 		librarian_name="eswar";
-//		librarian_name="charan";
+		DisplaylibraianDetails();
+
 	}
 
 
@@ -37,40 +39,64 @@ public class Assign5 {
 		// TODO Auto-generated method stub
 		
 		
-		Assign5 a=new Assign5();
-		
-		Assign5 b=new Assign5();
-		
-		a.bookid=112;
-		a.booktitle="ramayanam";
-		a.authorname="valmiki";
-		a.available_copies=25000;
-		
-		 a.library_name="vishwa vidyalayam";
-		 a.librarian_name="charan";
-		 
-//		 b.bookid=132;
-//			b.booktitle="maha bharatam";
-//			b.authorname="vedavasa";
-//			b.available_copies=25000;
-//			
-//			 b.library_name="vishwa vidyalayam";
-//			 b.librarian_name="eswar";
+		Assign5 a = new Assign5();
 
-		 System.out.println("book1 detaile:-");
-		 a.DisplayBookDetails();
-		 a.DisplaylibraianDetails();	
-		 
-//		 System.out.println("book2 detaile:-"); 
-//		 b.DisplayBookDetails();
-//		 b.DisplaylibraianDetails();	
-//	
-		 a.changelibrarian();	
-//		 b.changelibrarian();	
-		 
+	    a.bookid = 112;
+	    a.booktitle = "ramayanam";
+	    a.authorname = "valmiki";
+	    a.available_copies = 25000;
 
-		 
+	    a.library_name = "vishwa vidyalayam";
+	    a.librarian_name = "charan";
+
+	    System.out.println("Book 1 details:");
+	    a.DisplayBookDetails();
+
+	    System.out.println("Library details before changing:");
+	    a.DisplaylibraianDetails();
+	    
+	   
+
+	    a.changelibrarian();
 		
+//		
+//		Assign5 a=new Assign5();
+//		
+////		Assign5 b=new Assign5();
+//		
+//		a.bookid=112;
+//		a.booktitle="ramayanam";
+//		a.authorname="valmiki";
+//		a.available_copies=25000;
+//		
+//		 a.library_name="vishwa vidyalayam";
+//		 a.librarian_name="charan";
+//		 
+////		 b.bookid=132;
+////			b.booktitle="maha bharatam";
+////			b.authorname="vedavasa";
+////			b.available_copies=25000;
+////			
+////			 b.library_name="vishwa vidyalayam";
+////			 b.librarian_name="eswar";
+//
+//		 System.out.println("book1 detaile:-");
+//		 a.DisplayBookDetails();
+//		 a.DisplaylibraianDetails();
+//		 
+//		 
+////		 System.out.println("book2 detaile:-"); 
+////		 b.DisplayBookDetails();
+////		 b.DisplaylibraianDetails();	
+////	
+////		 a.changelibrarian();	
+////		 b.changelibrarian();	
+//		 
+//
+//		 
+//		 a.changelibrarian();
+	    
+	    Assign7.method();
 		
 		
 
